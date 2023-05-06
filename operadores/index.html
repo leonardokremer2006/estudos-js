@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+
+    <style>
+        body{
+            background-color: #444;
+            color: white;
+            height: 650px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.3em;
+            flex-direction: column;
+        }
+
+        #idade-normal{
+            
+            text-align: center;
+            font-family: Arial;
+            color:red;
+        }
+
+        #idade-adicionada {
+            text-align: center;
+            font-family: Arial;
+            color:aqua;
+        }
+    </style>
+
+</head>
+<body>
+
+    <p id="idade-normal"></p>
+    <p id="idade-adicionada"></p>
+
+
+    <script>
+        
+        var nome = prompt('Seu nome: ')
+        var idade = Number(prompt('Sua idade: '))
+
+        conteudo_idade_normal = document.getElementById('idade-normal')
+        conteudo_idade_normal.innerHTML = 'Sua idade é: ' + idade + ' anos !'
+
+        conteudo_idade_adicionada = document.getElementById('idade-adicionada')
+        conteudo_idade_adicionada.innerHTML = 'Sua idade com um ano a mais é: ' + ++idade + ' anos !'
+
+
+
+
+    </script>
+    
+</body>
+</html>
