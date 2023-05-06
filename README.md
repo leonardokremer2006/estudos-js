@@ -1,1 +1,1 @@
-<a href="Somando Valores">https://leonardokremer2006.github.io/estudos-js/dom1</a>
+<a href="https://leonardokremer2006.github.io/estudos-js/dom1/">Somando Valores</a>
